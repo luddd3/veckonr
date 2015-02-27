@@ -1,6 +1,6 @@
-# Next trip
-A Chrome Extension that conveniently shows the next departure.
+# Veckonr
+Ett Chrome Extension för att snabbt och lätt visa veckonumret.
 
 ```
-git clone git@bitbucket.org:lundeeell/nexttrip.git
+git clone git@github.com:luddd3/veckonr.git
 ``` 
