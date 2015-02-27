@@ -1,0 +1,28 @@
+{
+  "manifest_version" : 2,
+  "name": "Veckonummer",
+  "version": "0.1",
+
+  "description": "Veckonummer",
+  "icons": { "16" : "images/veckonr_icon_512.png",
+    "48" : "images/veckonr_icon_512.png",
+    "128" : "images/veckonr_icon_512.png"
+  },
+
+  "permissions": [
+    "notifications"
+  ],
+
+  "background": {
+    "scripts": [
+      "libs/moment-with-locales.min.js",
+      "js/main.js"
+    ],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "images/veckonr_icon_512.png",
+    "default_title": "Veckonummer"
+  }
+}
