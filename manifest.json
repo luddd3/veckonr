@@ -13,18 +13,17 @@
 	},
 
 	"permissions": [
-		"notifications"
+		"alarms"
 	],
 
 	"browser_action": {
-		"default_icon": "images/veckonr_icon_512.png",
 		"default_title": "Veckonummer"
 	},
 
 	"background": {
 		"scripts": [
 			"libs/moment-with-locales.min.js",
-			"js/main.js"
+			"js/background.js"
 		],
 		"persistent": false
 	}
