@@ -45,7 +45,16 @@ var drawBackground = function(ctx, background) {
 
 var drawText = function(ctx, text) {
 	var xOffset;
-	ctx.fillStyle = 'rgba(0, 0, 0, 255)';
+//Min egna kod:
+	const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+	const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+
+	if(userPrefersDark){
+    	ctx.fillStyle = 'rgba(255, 255, 255, 255)';
+	}
+	else ctx.fillStyle = 'rgba(0, 0, 0, 255)';
+//Min egna kod slut
 	ctx.font = "bold 10px Arial";
 
 	if (text.length > 1) {
