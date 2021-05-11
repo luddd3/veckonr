@@ -1,11 +1,11 @@
 {
 	"manifest_version" : 2,
 	"name": "Veckonummer",
-	"author": "Mathias Lundell",
+	"author": "Mathias Lundell / Hugo Karlsson",
 	"short_name": "Veckonr",
-	"version": "0.2",
+	"version": "0.1",
 	"description": "Veckonummer",
-	"homepage_url": "http://github.com/luddd3/veckonr",
+	"homepage_url": "https://github.com/HuggeK/veckonr",
 	
 	"icons": { "16" : "images/veckonr_icon_512.png",
 		"48" : "images/veckonr_icon_512.png",
