@@ -48,7 +48,7 @@ var drawBackground = function(ctx, background) {
 	ctx.drawImage(background, 0, 0);
 }
 
-var drawText = function(ctx, text) {
+var drawText = function(ctx, text, userPrefersDark) {
 	var xOffset;
 //Tillagt:
 	if(userPrefersDark){
