@@ -21,18 +21,23 @@ var init = function() {
 	moment.locale('sv');
 
 	var background = new Image();
-	background.src = "/images/calendar.png";
+// Tillagt:
+	const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+	if(userPrefersDark){
+		background.src = "/images/calendar4.png";
+	}
+	else background.src = "/images/calendar3.png";
 
 	background.onload = function() {
-		updateIcon(ctx, canvas, background);
+		updateIcon(ctx, canvas, background, userPrefersDark);
 	}
 }
 
-var updateIcon = function(ctx, canvas, background) {
+var updateIcon = function(ctx, canvas, background, userPrefersDark) {
 	drawBackground(ctx, background);
 
 	var week = moment().format('w');
-	drawText(ctx, week);
+	drawText(ctx, week, userPrefersDark);
 
 	chrome.browserAction.setIcon({
 		"imageData": ctx.getImageData(0, 0, canvas.width, canvas.height)
@@ -45,16 +50,11 @@ var drawBackground = function(ctx, background) {
 
 var drawText = function(ctx, text) {
 	var xOffset;
-//Min egna kod:
-	const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-	const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
-
+//Tillagt:
 	if(userPrefersDark){
     	ctx.fillStyle = 'rgba(255, 255, 255, 255)';
 	}
 	else ctx.fillStyle = 'rgba(0, 0, 0, 255)';
-//Min egna kod slut
 	ctx.font = "bold 10px Arial";
 
 	if (text.length > 1) {
@@ -62,5 +62,6 @@ var drawText = function(ctx, text) {
 	} else {
 		xOffset = 7;
 	}
+	
 	ctx.fillText(text, xOffset, 15, 19);
 }
