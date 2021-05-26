@@ -3,7 +3,7 @@
 	"name": "Veckonummer",
 	"author": "Mathias Lundell / Hugo Karlsson",
 	"short_name": "Veckonr",
-	"version": "0.1",
+	"version": "0.2",
 	"description": "Extension to display current week number.",
 	"homepage_url": "https://github.com/HuggeK/veckonr",
 	
