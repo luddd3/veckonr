@@ -1,10 +1,10 @@
 {
 	"manifest_version" : 2,
-	"name": "Veckonummer",
+	"name": "__MSG_extensionName__",
 	"author": "Mathias Lundell / Hugo Karlsson",
 	"short_name": "Veckonr",
 	"version": "0.2",
-	"description": "Extension to display current week number.",
+	"description": "__MSG_extensionDescription__",
 	"default_locale": "en",
 	"homepage_url": "https://github.com/HuggeK/veckonr",
 	
@@ -18,7 +18,7 @@
 	],
 
 	"browser_action": {
-		"default_title": "Veckonummer"
+		"default_title": "__MSG_DefaultTitle__"
 	},
 
 	"background": {
