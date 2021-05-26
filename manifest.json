@@ -4,7 +4,7 @@
 	"author": "Mathias Lundell / Hugo Karlsson",
 	"short_name": "Veckonr",
 	"version": "0.1",
-	"description": "HuggeK´s Veckonummer",
+	"description": "Extension to display current week number.",
 	"homepage_url": "https://github.com/HuggeK/veckonr",
 	
 	"icons": { "16" : "images/veckonr_icon_300.png",
