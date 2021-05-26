@@ -5,6 +5,7 @@
 	"short_name": "Veckonr",
 	"version": "0.2",
 	"description": "Extension to display current week number.",
+	"default_locale": "en",
 	"homepage_url": "https://github.com/HuggeK/veckonr",
 	
 	"icons": { "16" : "images/veckonr_icon_300.png",
