@@ -5,7 +5,7 @@ Ett Chromium tillägg för att snabbt och lätt visa veckonumret. Cred går till
 
 Finns att ladda ner på [Microsoft Edge Add-ons store.](https://microsoftedge.microsoft.com/addons/detail/veckonummer/bmoffkcljddjmejkgflbpfcchhjekahf)
 
+Finns att ladda ner på [chrome web store.](https://chrome.google.com/webstore/detail/week-number/dgjiedcgmmfaolcgieilddloapakcfhh)
+
 <img width="500" alt="Edge_light_demo" src="https://user-images.githubusercontent.com/48095810/130601346-fef57495-ae29-4160-aa36-65322e1a06c0.png">
 <img width="500" alt="Edge_dark_demo" src="https://user-images.githubusercontent.com/48095810/130601157-f1e16fa9-735f-4cbd-8909-ffcf2c77278c.png">
-
-Finns att ladda ner på [chrome web store.](https://chrome.google.com/webstore/detail/week-number/dgjiedcgmmfaolcgieilddloapakcfhh)
